@@ -1,0 +1,31 @@
+﻿body 
+{
+    
+    font-family:'Open',sans-serif;
+    
+    overflow-x:hidden;
+}
+#menu-flters ul li
+{
+    display:inline-block;
+    
+    text-transform:capitalize;
+    letter-spacing:1px;
+    margin-bottom:40px;
+}
+#menu-flters ul li a
+{
+    padding:10px 20px;
+    font-size:14px;
+    color:#565656;
+    border-radius:0px;
+    border:1px solid #BBBBBB;
+    text-decoration:none;
+    cursor:pointer;
+}
+#menu-flters ul li a.active, #menu-flters ul li a:hover
+{ 
+    background:#FFB03B;
+    color:#fff;
+    border:1px solid #FFB03B;
+}
